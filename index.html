@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Flexbox</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <link href="css/main.css" rel="stylesheet" />
+    <script
+      src="https://kit.fontawesome.com/8e2405c18c.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="sidebar">
+        <div class="logo">
+          <a href="index.html" title="Dash">
+            <img src="images/dash.svg" alt="Dash Logo" />
+          </a>
+        </div>
+        <nav class="sidebar__nav">
+          <h3>TASK</h3>
+          <ul>
+            <li>
+              <a href="#"><i class="fa-regular fa-calendar"></i>Calendar</a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-regular fa-envelope"></i>Messages</a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-solid fa-gift"></i>Offers</a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-regular fa-user"></i>Users</a>
+            </li>
+          </ul>
+          <h3>USER</h3>
+          <ul>
+            <li>
+              <a href="#"><i class="fa-solid fa-gear"></i>Settings</a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-solid fa-arrow-trend-up"></i>Trends</a>
+            </li>
+            <li>
+              <a href="#"
+                ><i class="fa-solid fa-cloud-arrow-down"></i>Downloads</a
+              >
+            </li>
+          </ul>
+        </nav>
+        <div class="sign-out">
+          <a href="#"
+            ><i class="fa-solid fa-arrow-right-from-bracket"></i>Sign Out</a
+          >
+        </div>
+      </div>
+      <div class="dashboard">
+        <header class="header">
+          <div class="header__title">
+            <h1>
+              <span class="header__title-icon"
+                ><i class="fa-solid fa-angles-left"></i
+              ></span>
+              Dashboard
+            </h1>
+          </div>
+          <nav class="header__nav">
+            <ul>
+              <li class="notification">
+                <a href="#"><i class="fa-regular fa-bell"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa-solid fa-gear"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa-solid fa-bars"></i></a>
+              </li>
+              <li class="header_nav-avatar busy">
+                <a href="#">
+                  <img src="images/avatar.png" alt="User" />
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </header>
+        <section class="content">
+          <div class="content__item analytics">
+            <div class="analytics__header">
+              <h3>Analytics</h3>
+              <p>This week</p>
+            </div>
+
+            <div>
+              <img src="images/analyticsimage.png" alt="" />
+            </div>
+          </div>
+          <div class="content__item refferals">
+            <div class="refferals__header">
+              <h3>Refferals</h3>
+              <a href="button">
+                <button>Today <i class="fa-solid fa-chevron-down"></i></button>
+              </a>
+            </div>
+            <div class="contain__img">
+              <img src="images/chart.svg" alt="" />
+            </div>
+            <div class="images__info">
+              <div class="direct">
+                <div class="box1"></div>
+                <p>Direct</p>
+              </div>
+              <div class="refferal">
+                <div class="box2"></div>
+                <p>Refferal</p>
+              </div>
+
+              <div class="social">
+                <div class="box3"></div>
+                <p>Social</p>
+              </div>
+            </div>
+          </div>
+          <div class="content__item friends">
+            <div class="friends__container">
+              <div class="friends__header">
+                <h3>Friends</h3>
+              </div>
+              <div class="border"></div>
+              <div class="friends__item">
+                <div class="friends__img">
+                  <img src="images/friends.svg" alt="" />
+                </div>
+                <div class="friends__info">
+                  <p class="name">Gopichand Sana</p>
+                  <p class="job">UX Researcher</p>
+                </div>
+                <div class="ellipsis">
+                  <a href="#"><i class="fa-solid fa-ellipsis-vertical"></i></a>
+                </div>
+              </div>
+              <div class="border"></div>
+              <div class="friends__item">
+                <div class="friends__img">
+                  <img src="images/friends.svg" alt="" />
+                </div>
+                <div class="friends__info">
+                  <p class="name">Gopichand Sana</p>
+                  <p class="job">UX Researcher</p>
+                </div>
+                <div class="ellipsis">
+                  <a href="#"><i class="fa-solid fa-ellipsis-vertical"></i></a>
+                </div>
+              </div>
+              <div class="border"></div>
+              <div class="friends__item">
+                <div class="friends__img">
+                  <img src="images/friends.svg" alt="" />
+                </div>
+                <div class="friends__info">
+                  <p class="name">Gopichand Sana</p>
+                  <p class="job">UX Researcher</p>
+                </div>
+                <div class="ellipsis">
+                  <a href="#"><i class="fa-solid fa-ellipsis-vertical"></i></a>
+                </div>
+              </div>
+              <div class="border"></div>
+              <div class="friends__item">
+                <div class="friends__img">
+                  <img src="images/friends.svg" alt="" />
+                </div>
+                <div class="friends__info">
+                  <p class="name">Gopichand Sana</p>
+                  <p class="job">UX Researcher</p>
+                </div>
+                <div class="ellipsis">
+                  <a href="#"><i class="fa-solid fa-ellipsis-vertical"></i></a>
+                </div>
+              </div>
+
+              <div class="border"></div>
+              <div class="friends__item">
+                <div class="friends__img">
+                  <img src="images/friends.svg" alt="" />
+                </div>
+                <div class="friends__info">
+                  <p class="name">Gopichand Sana</p>
+                  <p class="job">UX Researcher</p>
+                </div>
+                <div class="ellipsis">
+                  <a href="#"><i class="fa-solid fa-ellipsis-vertical"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="content__item tasks">
+            <div class="tasks__header">
+              <h3>Tasks</h3>
+              <a href="button">
+                <button>Today <i class="fa-solid fa-chevron-down"></i></button>
+              </a>
+            </div>
+            <div class="border"></div>
+            <div class="tasks__info">
+              <div class="tasks__info_one">
+                <div class="one__image">
+                  <img src="/images/checkbox variant.svg" alt="" />
+                </div>
+                <p>Work on new kit style guide and intro</p>
+              </div>
+              <div class="tasks__info_one">
+                <div class="one__image">
+                  <img src="/images/checkbox variant.svg" alt="" />
+                </div>
+                <p>Figma design system</p>
+              </div>
+              <div class="tasks__info_one">
+                <div class="one__image">
+                  <img src="/images/checkbox variant.svg" alt="" />
+                </div>
+                <p>Showcase and newsletter</p>
+              </div>
+              <div class="tasks__info_one">
+                <div class="one__image">
+                  <img src="/images/checkbox .png" alt="" />
+                </div>
+                <p>Showcase and newsletter</p>
+              </div>
+              <div class="tasks__info_one">
+                <div class="one__image">
+                  <img src="images/checkbox .png" alt="" />
+                </div>
+                <p>Have a break!</p>
+              </div>
+              <div class="border"></div>
+              <div class="tasks__footer">
+                <p>Add new item...</p>
+                <a href="button">
+                  <button>Today</button>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="content__item rank">
+            <div class="rank__header">
+              <h3>Rank</h3>
+            </div>
+            <div class="rank__container">
+              <div class="rank__item">
+                <p>Beginner</p>
+              </div>
+              <div class="rank__image">
+                <img src="images/avatar.png" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="content__item week">
+            <div class="week__header">
+              <h3>This week</h3>
+            </div>
+            <div class="week__container">
+              <div class="week__item">
+                <p>Progress</p>
+              </div>
+              <div class="week__image">
+                <img src="images/graph.png" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="content__item month">
+            <div class="month__header">
+              <h3>This week</h3>
+            </div>
+            <div class="month__container">
+              <div class="month__item">
+                <p>Progress</p>
+              </div>
+              <div class="month__image">
+                <img src="images/gift.svg" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="content__item revenue">
+            <div class="revenue__header">
+              <h3>Revenue</h3>
+            </div>
+            <div class="revenue__container">
+              <div class="revenue__item">
+                <p>$129,850</p>
+              </div>
+              <div class="revenue__image">
+                <a href="button">
+                  <button><i class="fa-solid fa-chevron-up"></i>15%</button>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="content__item activity">
+            <div class="activity__container">
+              <div class="activity__header">
+                <h3>Activity</h3>
+                <p>
+                  This week
+                  <i class="fa-solid fa-sort-down"></i>
+                </p>
+              </div>
+              <div class="border"></div>
+              <div class="activity__item">
+                <div class="activity__img">
+                  <img src="images/activity1.svg" alt="" />
+                </div>
+                <div class="activity__info">
+                  <p class="name">Amarachi Nkechi</p>
+                  <p class="job">Uploaded Team.zip file on shared cloud</p>
+                </div>
+                <div class="last-time">
+                  <p>Just now</p>
+                </div>
+              </div>
+              <div class="border"></div>
+              <div class="activity__item">
+                <div class="activity__img">
+                  <img src="images/activity2.svg" alt="" />
+                </div>
+                <div class="activity__info">
+                  <p class="name">Amarachi Nkechi</p>
+                  <p class="job">Uploaded Team.zip file on shared cloud</p>
+                </div>
+                <div class="last-time">
+                  <p>12 min ago</p>
+                </div>
+              </div>
+              <div class="border"></div>
+              <div class="activity__item">
+                <div class="activity__img">
+                  <img src="images/activity3.svg" alt="" />
+                </div>
+                <div class="activity__info">
+                  <p class="name">Amarachi Nkechi</p>
+                  <p class="job">Uploaded Team.zip file on shared cloud</p>
+                </div>
+                <div class="last-time">
+                  <p>Yesterday</p>
+                </div>
+              </div>
+              <div class="border"></div>
+              <div class="activity__item">
+                <div class="activity__img">
+                  <img src="images/activity4.svg" />
+                </div>
+                <div class="activity__info">
+                  <p class="name">Amarachi Nkechi</p>
+                  <p class="job">Uploaded Team.zip file on shared cloud</p>
+                </div>
+                <div class="last-time">
+                  <p>1 week agov</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="content__item banner">
+            <div class="banner__container">
+              <div class="banner-left">
+                <h3>Become a pro</h3>
+                <p>Feeling lost? chat with support</p>
+                <button class="button">
+                  <p>Get Started</p>
+                </button>
+              </div>
+              <div class="banner__img">
+                <img src="images/banner.png" alt="">
+              </div>
+             
+            </div>
+          </div>
+          <div class="footer">
+            <span class="fabrx">© 2021 Fabrx UI</span>
+            <div class="footer-right">
+              <p>Services</p>
+              <p>Features</p>
+              <p>About</p>
+              <p>Privacy</p>
+              <p>Contact</p>
+
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+  </body>
+</html>
